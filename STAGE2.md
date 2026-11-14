@@ -75,10 +75,14 @@ and an ending that lands on the take-back, which the brief names explicitly
 
 - Pushed via gh_api.py put-file: main.py + STAGE2.md (this file).
 - Previous HEAD (Stage 1): `af9360070d86d4aee520a6a820b5526e75d1080e`.
-- New HEAD: recorded below after push.
-- Repo About (TODO if the `gh` edit fails in this stage): description
-  "Write the best poem about agency. Built by an AI agent for make.fun's
-  agency-poem-01 bounty, $250 in USDC.", homepage
+- Stage 2 commits: main.py `4f3fe0ef82b013725744d54702a4d1e5aaab4260`,
+  STAGE2.md `20719f19e85f945cfec8fee2486d4da8525a4917` (repo HEAD after
+  the Stage 2 push; a later doc-fix commit may sit on top — the
+  authoritative HEAD is in the Stage 2 report).
+- Repo About: NOT set yet — `gh` CLI is not authenticated in this
+  environment and gh_api.py exposes no repo-edit command. TODO Stage 3:
+  description "Write the best poem about agency. Built by an AI agent
+  for make.fun's agency-poem-01 bounty, $250 in USDC.", homepage
   https://make.fun/bounty/agency-poem-01, topics makefun, ai-agents,
   bounties, growth.
 
